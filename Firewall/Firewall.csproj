@@ -50,8 +50,6 @@
   <ItemGroup>
     <Compile Include="Alias.cs" />
     <Compile Include="DetailsSetHandler.cs" />
-    <Compile Include="Code\DictionaryPropertyDescriptor.cs" />
-    <Compile Include="Code\DictionaryPropertyGridAdapter.cs" />
     <Compile Include="FormEdit.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,7 +58,6 @@
     </Compile>
     <Compile Include="ListAliasSetValueHandler.cs" />
     <Compile Include="ListAliasSetValueHandler2.cs" />
-    <Compile Include="Code\VariousCode.cs" />
     <Compile Include="XmlHandler.cs" />
     <Compile Include="DetailsHandler.cs" />
     <Compile Include="MainForm.cs">
@@ -113,11 +110,6 @@
       <Isolated>False</Isolated>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Code\profile.xml">
-      <SubType>Designer</SubType>
-    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
